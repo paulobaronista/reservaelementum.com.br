@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Reserva Elementum';
+        $data['description'] = 'Terrenos a partir de 360M²';
+        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -19,14 +19,14 @@ class Contato extends CI_Controller{
             $telefone = $this->input->post('telefone');
             $assunto1 = $this->input->post('assunto1');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('[Novo Lead] LP - Reserva Elementum');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","Landing Modelo");
-            $this->email->to('contato@landingpagemodelo.com.br');
+            $this->email->from("contato@reservaelementum.com.br","Reserva Elementum");
+            $this->email->to('contato@reservaelementum.com.br');
             $this->email->cc('front.baronista@gmail.com');
             //$this->email->cc('front.baronista@gmail.com');
 
@@ -57,9 +57,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Reserva Elementum';
+        $data['description'] = 'Terrenos a partir de 360M²';
+        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -71,9 +71,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Reserva Elementum';
+        $data['description'] = 'Terrenos a partir de 360M²';
+        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

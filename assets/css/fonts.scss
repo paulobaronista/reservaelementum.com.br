@@ -1,12 +1,78 @@
-// @font-face {
-//     font-family: 'Rosellinda Alyamore';
-//     src: url('../fonts/RosellindaAlyamore.eot');
-//     src: url('../fonts/RosellindaAlyamore.eot?#iefix') format('embedded-opentype'),
-//         url('../fonts/RosellindaAlyamore.woff2') format('woff2'),
-//         url('../fonts/RosellindaAlyamore.woff') format('woff'),
-//         url('../fonts/RosellindaAlyamore.ttf') format('truetype'),
-//         url('../fonts/RosellindaAlyamore.svg#RosellindaAlyamore') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap;
-// }
+@font-face {
+    font-family: 'ITC Franklin Gothic Std';
+    src: url('../fonts/ITCFranklinGothicStd-BkCd.eot');
+    src: url('../fonts/ITCFranklinGothicStd-BkCd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ITCFranklinGothicStd-BkCd.woff2') format('woff2'),
+        url('../fonts/ITCFranklinGothicStd-BkCd.woff') format('woff'),
+        url('../fonts/ITCFranklinGothicStd-BkCd.ttf') format('truetype'),
+        url('../fonts/ITCFranklinGothicStd-BkCd.svg#ITCFranklinGothicStd-BkCd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/BebasNeueBold.woff') format('woff'),
+        url('../fonts/BebasNeueBold.ttf') format('truetype'),
+        url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('../fonts/BebasNeueRegular.woff') format('woff'),
+        url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+        url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Franklin Gothic Std';
+    src: url('../fonts/ITCFranklinGothicStd-Book.eot');
+    src: url('../fonts/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ITCFranklinGothicStd-Book.woff2') format('woff2'),
+        url('../fonts/ITCFranklinGothicStd-Book.woff') format('woff'),
+        url('../fonts/ITCFranklinGothicStd-Book.ttf') format('truetype'),
+        url('../fonts/ITCFranklinGothicStd-Book.svg#ITCFranklinGothicStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Franklin Gothic Std';
+    src: url('../fonts/ITCFranklinGothicStd-DmCd.eot');
+    src: url('../fonts/ITCFranklinGothicStd-DmCd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ITCFranklinGothicStd-DmCd.woff2') format('woff2'),
+        url('../fonts/ITCFranklinGothicStd-DmCd.woff') format('woff'),
+        url('../fonts/ITCFranklinGothicStd-DmCd.ttf') format('truetype'),
+        url('../fonts/ITCFranklinGothicStd-DmCd.svg#ITCFranklinGothicStd-DmCd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Franklin Gothic Std';
+    src: url('../fonts/ITCFranklinGothicStd-Med.eot');
+    src: url('../fonts/ITCFranklinGothicStd-Med.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ITCFranklinGothicStd-Med.woff2') format('woff2'),
+        url('../fonts/ITCFranklinGothicStd-Med.woff') format('woff'),
+        url('../fonts/ITCFranklinGothicStd-Med.ttf') format('truetype'),
+        url('../fonts/ITCFranklinGothicStd-Med.svg#ITCFranklinGothicStd-Med') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
