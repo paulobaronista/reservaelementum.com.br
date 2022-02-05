@@ -1,31 +1,18 @@
 $(document).on('ready', function () {
     $(".glr-home").slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 20000,
-    });
-
-    $(".glr-receitas").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
         autoplaySpeed: 20000,
     });
-
-    $(".galeria-01").slick({
+    $(".glr-lugares").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 8000,
+        autoplaySpeed: 20000,
     });
-});
-
-$(document).ready(function () {
-    $('#modalPascoa').modal();
 });
 
 $(document).ready(function () {
@@ -106,7 +93,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://landingpagemodelo.com.br/"
+        window.location.href = "https://reservaelementum.com.br/"
     });
 });
 
@@ -114,22 +101,14 @@ $(function () {
     $('.nome').clear();
     $('.email').clear();
     $('.telefone').clear();
-    $('.assunto1').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, a, m;
+        var n, e, t, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.telefone').val();
-        a = $('.assunto1').val();
         m = $('.msg').val();
-
-        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
-            setTimeout(function() { 
-                $(".btn_enviar").attr('disabled', 'disabled');
-            }, 1000);
-        }
     });
 });

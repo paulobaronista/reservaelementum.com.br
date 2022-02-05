@@ -1,4 +1,31 @@
 @font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-BoldCondIt.eot");
+  src: url("../fonts/MyriadPro-BoldCondIt.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-BoldCondIt.woff2") format("woff2"), url("../fonts/MyriadPro-BoldCondIt.woff") format("woff"), url("../fonts/MyriadPro-BoldCondIt.ttf") format("truetype"), url("../fonts/MyriadPro-BoldCondIt.svg#MyriadPro-BoldCondIt") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Semibold.eot");
+  src: url("../fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Semibold.woff2") format("woff2"), url("../fonts/MyriadPro-Semibold.woff") format("woff"), url("../fonts/MyriadPro-Semibold.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'ITC Franklin Gothic Std';
   src: url("../fonts/ITCFranklinGothicStd-BkCd.eot");
   src: url("../fonts/ITCFranklinGothicStd-BkCd.eot?#iefix") format("embedded-opentype"), url("../fonts/ITCFranklinGothicStd-BkCd.woff2") format("woff2"), url("../fonts/ITCFranklinGothicStd-BkCd.woff") format("woff"), url("../fonts/ITCFranklinGothicStd-BkCd.ttf") format("truetype"), url("../fonts/ITCFranklinGothicStd-BkCd.svg#ITCFranklinGothicStd-BkCd") format("svg");
@@ -215,7 +242,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #7d6b3f;
+  background-color: #00541f;
   padding: 20px 10px;
   position: relative;
 }
@@ -233,8 +260,8 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
@@ -254,9 +281,9 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  right: 0;
+  right: 0.5%;
   z-index: 999;
-  bottom: 90px;
+  bottom: 40%;
 }
 
 .float-box a {
@@ -268,10 +295,10 @@ p {
   height: 47px;
   line-height: 27px;
   display: block;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   padding: 10px 15px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Myriad Pro';
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
@@ -286,27 +313,32 @@ p {
 }
 
 .float-box .chat {
-  background: url(../images/icone-chat.png) no-repeat right 10px center;
+  background: url(../images/icone-chat.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
+  background-color: #004420;
+  border-radius: 11px;
 }
 
-.float-box .car {
-  background: url(../images/icone-car.png) no-repeat right 10px center;
+.float-box .phone {
+  background: url(../images/icone-tel.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
+  background-color: #004420;
+  border-radius: 11px;
+  font-size: 18px;
 }
 
 .float-box .mail {
-  background: url(../images/icone-mail.png) no-repeat right 10px center;
+  background: url(../images/icone-mail.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
+  background-color: #004420;
+  border-radius: 11px;
 }
 
 .float-box .whats {
-  background: url(../images/icone-zap.png) no-repeat right 10px center;
+  background: url(../images/icone-zap.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
+  background-color: #004420;
+  border-radius: 11px;
 }
 
 .cookies {
@@ -320,18 +352,19 @@ p {
 }
 
 .cookies .box {
-  background-color: #56601d;
+  background-color: #dbe296;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
   bottom: 20px;
+  border-radius: 25px;
 }
 
 .cookies .box p {
-  font-family: 'Proxima Nova Rg';
-  font-weight: 300;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
   font-style: normal;
-  color: #fff;
+  color: #00541f;
   font-size: 12px;
   line-height: 14px;
   margin-top: 7px;
@@ -339,12 +372,12 @@ p {
 
 .cookies .box p a {
   text-decoration: underline;
-  color: #fff;
+  color: #00541f;
 }
 
 .cookies .box .btn_cookie {
-  font-family: 'Proxima Nova Rg';
-  font-weight: bold;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
   font-style: normal;
   font-size: 16px;
   line-height: 16px;
@@ -356,54 +389,34 @@ p {
   margin-top: 7px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #bab355;
+  background: #00541f;
 }
 
-.modalPascoa {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modalPascoa .modal-content {
-  background-color: #000;
-  border: 0px solid transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.modalPascoa .modal-body {
-  padding: 8px;
-}
-
-.modalPascoa .close {
-  font-size: 27px;
+.modalMapa .close {
   color: #fff;
   text-shadow: none;
   opacity: 1;
   position: absolute;
-  top: -20px;
-  right: -20px;
-  z-index: 100;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
 }
 
-#view-receita {
-  width: 1px;
-  height: 1px;
-  background-color: red;
-  position: absolute;
-  top: 30.3%;
+.modalMapa .modal-dialog {
+  width: 1200px;
+  margin: 50px auto;
 }
 
-@media (min-width: 768px) {
-  .modalPascoa .modal-dialog {
-    margin: 6% auto 0;
-  }
+.modalMapa .modal-body {
+  padding: 0px;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
-  #view-receita {
-    top: 0%;
-  }
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
@@ -421,16 +434,517 @@ p {
   .cookies .box .btn_cookie {
     margin-top: 20px;
   }
-  .modalPascoa .modal-dialog {
-    margin: 25% auto 0;
+  .modalMapa .close {
+    top: -26px;
+    right: 0px;
   }
-  .modalPascoa .close {
-    top: -30px;
-    right: 5px;
+  .modalMapa .modal-dialog {
+    width: auto;
+    margin: 30% auto 0;
   }
 }
 
+.faixa-01 {
+  background-color: #00541f;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.faixa-01 p {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
+
+.faixa-02 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #dbe296;
+  position: relative;
+}
+
+.faixa-02::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.faixa-02::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.faixa-02 p {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #00541f;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 10px;
+}
+
+.terrenos360 {
+  background-color: #dbe296;
+  position: relative;
+  margin-top: -5px;
+}
+
+.terrenos360::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.terrenos360::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.terrenos360 .terrenos360Img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.terrenos360 .txt {
+  padding-bottom: 20px;
+}
+
+.terrenos360 .txt p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #1d1d1b;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.min7 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.min7 .tt-01 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #ff4d00;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.min7 .tt-02 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #00541f;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 4px;
+}
+
+.fale {
+  padding-top: 20px;
+}
+
+.fale .tt-03 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #ff4d00;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 4px;
+}
+
 /* Extra Small */
+@media (max-width: 767px) {
+  .faixa-01 {
+    padding-top: 14px;
+    padding-bottom: 8px;
+  }
+  .faixa-01 p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .faixa-02 {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  .faixa-02::before {
+    width: 1.5%;
+  }
+  .faixa-02::after {
+    width: 1.5%;
+  }
+  .faixa-02 p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 5px;
+  }
+  .terrenos360 {
+    margin-top: -5px;
+  }
+  .terrenos360::before {
+    width: 1.5%;
+  }
+  .terrenos360::after {
+    width: 1.5%;
+  }
+  .terrenos360 .terrenos360Img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .terrenos360 .terrenos360Img img {
+    max-width: 90%;
+  }
+  .terrenos360 .txt {
+    padding-bottom: 20px;
+  }
+  .terrenos360 .txt p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .min7 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .min7 .tt-01 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .min7 .tt-02 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 3px;
+  }
+  .fale {
+    padding-top: 15px;
+  }
+  .fale .tt-03 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 3px;
+  }
+  .waze img {
+    max-width: 90%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.contato {
+  background-color: #dbe296;
+  position: relative;
+  padding-top: 10px;
+}
+
+.contato::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.contato::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.contato .group-form .form-group {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 10px;
+}
+
+.contato .group-form .form-control {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #4c4034;
+  background-color: #fff;
+  border: 2px solid #769718;
+  border-radius: 25px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .group-form .form-control::-webkit-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .group-form .form-control:-ms-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .group-form .form-control::-ms-input-placeholder {
+  color: #4c4034;
+}
+
+.contato .group-form .form-control::placeholder {
+  color: #4c4034;
+}
+
+.contato .group-form textarea {
+  height: 125px !important;
+}
+
+.contato .group-form .btn_enviar {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  padding: 12px 30px 8px 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 25px;
+  color: #ffffff;
+  background-color: #004420;
+  float: right;
+  text-transform: uppercase;
+}
+
+.contato .group-form .btn_enviar:hover, .contato .group-form .btn_enviar:focus {
+  background-color: #769718;
+  outline: none;
+  outline-offset: 0px;
+}
+
+.contato small {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #769718;
+  font-size: 10px;
+  line-height: 13px;
+  display: block;
+}
+
+.contato .showroom {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contato .showroom .tt-04,
+.contato .showroom .tt-05 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #00541f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contato .showroom .tt-04 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.contato .showroom .tt-05 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-bottom: 20px;
+  }
+  .contato::before {
+    width: 1.5%;
+  }
+  .contato::after {
+    width: 1.5%;
+  }
+  .contato small {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .contato .showroom {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .contato .showroom .tt-04 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .contato .showroom .tt-05 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+footer .parceiros {
+  background-color: #dbe296;
+  position: relative;
+  padding-top: 30px;
+}
+
+footer .parceiros::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+footer .parceiros::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+footer .parceiros figcaption,
+footer .parceiros p {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #1d1d1b;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer .parceiros p {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 17px;
+}
+
+footer .parceiros figcaption {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+footer .parceiros .l {
+  border-left: solid 2px #1d1d1b;
+}
+
+footer .parceiros .box1 {
+  margin-bottom: 30px;
+}
+
+footer .menu-footer {
+  background-color: #005628;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+footer .menu-footer p {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+footer .menu-footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .menu-footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+footer .menu-footer .navbar-nav li > a:focus,
+footer .menu-footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .menu-footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer .parceiros {
+    padding-top: 10px;
+  }
+  footer .parceiros::before {
+    width: 1.5%;
+  }
+  footer .parceiros::after {
+    width: 1.5%;
+  }
+  footer .parceiros .box1 {
+    margin-bottom: 10px;
+  }
+  footer .parceiros .box1 img {
+    max-width: 80%;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */

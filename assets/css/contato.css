@@ -1,132 +1,156 @@
 .contato {
-  background-color: #56601d;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: #dbe296;
+  position: relative;
+  padding-top: 10px;
 }
 
-.contato .tt {
-  padding-bottom: 20px;
+.contato::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
 }
 
-.contato .tt p {
-  font-family: 'Rosellinda Alyamore';
-  font-weight: normal;
-  font-style: normal;
-  color: #fff;
-  font-size: 50px;
-  line-height: 50px;
-}
-
-.contato .txt-1,
-.contato .txt-2 {
-  font-family: 'HelveticaNeue';
-  font-weight: 500;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.contato .txt-1 a,
-.contato .txt-2 a {
-  color: #ffffff;
-}
-
-.contato .txt-1 {
-  font-size: 15px;
-  line-height: 30px;
-}
-
-.contato .txt-2 {
-  font-size: 30px;
-  line-height: 30px;
+.contato::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
 }
 
 .contato .group-form .form-group {
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 10px;
 }
 
 .contato .group-form .form-control {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
   height: 50px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.42857143;
-  color: #000000;
+  color: #4c4034;
   background-color: #fff;
-  border: 0px solid transparent;
-  border-radius: 0px;
+  border: 2px solid #769718;
+  border-radius: 25px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .contato .group-form .form-control::-webkit-input-placeholder {
-  color: #000000;
+  color: #4c4034;
 }
 
 .contato .group-form .form-control:-ms-input-placeholder {
-  color: #000000;
+  color: #4c4034;
 }
 
 .contato .group-form .form-control::-ms-input-placeholder {
-  color: #000000;
+  color: #4c4034;
 }
 
 .contato .group-form .form-control::placeholder {
-  color: #000000;
+  color: #4c4034;
 }
 
 .contato .group-form textarea {
-  height: 150px !important;
+  height: 125px !important;
 }
 
 .contato .group-form .btn_enviar {
-  font-family: 'HelveticaNeue';
-  font-weight: 500;
-  padding: 8px 20px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  padding: 12px 30px 8px 30px;
   margin-bottom: 0;
   font-size: 14px;
+  letter-spacing: 3px;
   font-weight: 400;
   line-height: 1.42857143;
   border: 0px solid transparent;
-  border-radius: 0px;
-  color: #fff;
-  background-color: #bab355;
+  border-radius: 25px;
+  color: #ffffff;
+  background-color: #004420;
   float: right;
   text-transform: uppercase;
 }
 
+.contato .group-form .btn_enviar:hover, .contato .group-form .btn_enviar:focus {
+  background-color: #769718;
+  outline: none;
+  outline-offset: 0px;
+}
+
 .contato small {
-  font-family: 'HelveticaNeue';
-  font-weight: 500;
-  color: #ffffff;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #769718;
   font-size: 10px;
   line-height: 13px;
   display: block;
 }
 
+.contato .showroom {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contato .showroom .tt-04,
+.contato .showroom .tt-05 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-style: normal;
+  color: #00541f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contato .showroom .tt-04 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.contato .showroom .tt-05 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .contato .tt {
     padding-bottom: 20px;
   }
-  .contato .tt p {
-    font-size: 50px;
-    line-height: 40px;
+  .contato::before {
+    width: 1.5%;
+  }
+  .contato::after {
+    width: 1.5%;
+  }
+  .contato small {
+    margin-top: 10px;
     text-align: center;
   }
-  .contato .txt-1 {
-    font-size: 14px;
-    line-height: 28px;
+  .contato .showroom {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
-  .contato .txt-2 {
-    font-size: 25px;
-    line-height: 25px;
+  .contato .showroom .tt-04 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .contato .showroom .tt-05 {
+    font-size: 17px;
+    line-height: 27px;
   }
 }
 

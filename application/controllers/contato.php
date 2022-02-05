@@ -17,7 +17,6 @@ class Contato extends CI_Controller{
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('telefone');
-            $assunto1 = $this->input->post('assunto1');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('[Novo Lead] LP - Reserva Elementum');
 
@@ -27,8 +26,8 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@reservaelementum.com.br","Reserva Elementum");
             $this->email->to('contato@reservaelementum.com.br');
-            $this->email->cc('front.baronista@gmail.com');
-            //$this->email->cc('front.baronista@gmail.com');
+            $this->email->cc('renata@spicycomm.com.br, leadselememtum@gmail.com, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br');
+
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -36,8 +35,7 @@ class Contato extends CI_Controller{
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
-                        Assunto:	{$assunto1}<br/>
-                            Mensagem:	{$mensagem}<br/>
+                        Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
             if($this->email->send()){

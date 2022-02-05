@@ -160,7 +160,7 @@ p {
         display: table;
         margin: 10% auto 0;
         width: 40%;
-        background-color: #7d6b3f;
+        background-color: #00541f;
         padding: 20px 10px;
         position: relative;
 
@@ -177,8 +177,8 @@ p {
         }
 
         p {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
+            font-family: 'Myriad Pro';
+            font-weight: normal;
             font-style: normal;
             font-size: 18px;
             line-height: 1.667;
@@ -188,14 +188,15 @@ p {
     }
 }
 
+
 .float-box {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     position: fixed;
-    right: 0;
+    right: 0.5%;
     z-index: 999;
-    bottom: 90px;
+    bottom: 40%;
 }
 
 .float-box a {
@@ -206,10 +207,10 @@ p {
     height: 47px;
     line-height: 27px;
     display: block;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     padding: 10px 15px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Myriad Pro';
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
@@ -224,27 +225,32 @@ p {
 }
 
 .float-box .chat {
-    background: url(../images/icone-chat.png) no-repeat right 10px center;
+    background: url(../images/icone-chat.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #004420;
+    border-radius: 11px;
 }
 
-.float-box .car {
-    background: url(../images/icone-car.png) no-repeat right 10px center;
+.float-box .phone {
+    background: url(../images/icone-tel.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #004420;
+    border-radius: 11px;
+    font-size: 18px;
 }
 
 .float-box .mail {
-    background: url(../images/icone-mail.png) no-repeat right 10px center;
+    background: url(../images/icone-mail.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #004420;
+    border-radius: 11px;
 }
 
 .float-box .whats {
-    background: url(../images/icone-zap.png) no-repeat right 10px center;
+    background: url(../images/icone-zap.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #004420;
+    border-radius: 11px;
 }
 
 .cookies {
@@ -257,30 +263,31 @@ p {
     display: none;
 
     .box {
-        background-color: #56601d;
+        background-color: #dbe296;
         padding-top: 20px;
         padding-bottom: 20px;
         position: absolute;
         bottom: 20px;
+        border-radius: 25px;
 
         p {
-            font-family: 'Proxima Nova Rg';
-            font-weight: 300;
+            font-family: 'Myriad Pro';
+            font-weight: normal;
             font-style: normal;
-            color: #fff;
+            color: #00541f;
             font-size: 12px;
             line-height: 14px;
             margin-top: 7px;
 
             a {
                 text-decoration: underline;
-                color: #fff;
+                color: #00541f;
             }
         }
 
         .btn_cookie {
-            font-family: 'Proxima Nova Rg';
-            font-weight: bold;
+            font-family: 'Myriad Pro';
+            font-weight: normal;
             font-style: normal;
             font-size: 16px;
             line-height: 16px;
@@ -291,58 +298,38 @@ p {
             width: 160px;
             margin-top: 7px;
             box-shadow: none;
-            background: #bab355;
+            background: #00541f;
         }
     }
 }
 
-.modalPascoa {
-    background-color: rgba(0, 0, 0, 0.5);
-
-    .modal-content {
-        background-color: #000;
-        border: 0px solid transparent;
-        box-shadow: none;
-    }
-
-    .modal-body {
-        padding: 8px;
-    }
-
+.modalMapa {
     .close {
-        font-size: 27px;
         color: #fff;
         text-shadow: none;
         opacity: 1;
         position: absolute;
-        top: -20px;
-        right: -20px;
-        z-index: 100;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    .modal-dialog {
+        width: 1200px;
+        margin: 50px auto;
+    }
+
+    .modal-body {
+        padding: 0px;
     }
 }
-
-#view-receita {
-    width: 1px;
-    height: 1px;
-    background-color: red;
-    position: absolute;
-    top: 30.3%;
-}
-
-@media (min-width: 768px) {
-    .modalPascoa {
-        .modal-dialog {
-            margin: 6% auto 0;
-        }
-    }
-}
-
 
 /* Extra Small */
 @media(max-width:767px) {
-    #view-receita {
-        top: 0%;
-    }
 
     .aviso {
         div {
@@ -370,14 +357,15 @@ p {
         }
     }
 
-    .modalPascoa {
-        .modal-dialog {
-            margin: 25% auto 0;
+    .modalMapa {
+        .close {
+            top: -26px;
+            right: 0px;
         }
 
-        .close {
-            top: -30px;
-            right: 5px;
+        .modal-dialog {
+            width: auto;
+            margin: 30% auto 0;
         }
     }
 }
