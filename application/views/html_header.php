@@ -21,7 +21,7 @@
     <meta property="og:title" content="Reserva Elementum" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <meta property="Loteamento fechado com terrenos a partir de 360M²" />
-    <meta property="og:url" content="https://www.reservaelementum.com.br" />
+    <meta property="og:url" content="http://reservaelementum.com.br" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(

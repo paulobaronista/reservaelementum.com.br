@@ -51,19 +51,40 @@
                 <div class="galeria-lugares">
                     <section class="glr-lugares slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_01.png" alt="Reserva Elementum">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_02.png" alt="Reserva Elementum">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_03.png" alt="Reserva Elementum">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_04.png" alt="Reserva Elementum">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_05.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_06.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_07.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_08.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_09.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_10.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_11.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_12.png" alt="Reserva Elementum">
                         </div>
                     </section>
                 </div>
@@ -78,7 +99,7 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 waze">
-                <a href="">
+                <a href="#" data-toggle="modal" data-target="#modalMapa">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/waze.png" alt="Waze">
                 </a>
             </div>
@@ -90,7 +111,6 @@
         </div>
     </div>
 </div>
-
 <div class="container-fluid padding-off contato">
     <div class="container">
         <div class="row">

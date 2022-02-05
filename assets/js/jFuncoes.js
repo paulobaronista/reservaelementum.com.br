@@ -93,7 +93,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://reservaelementum.com.br/"
+        window.location.href = "http://reservaelementum.com.br/"
     });
 });
 
