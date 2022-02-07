@@ -96,6 +96,10 @@ footer .menu-footer .navbar-nav li:last-child a {
   border-right: 0px solid transparent;
 }
 
+footer .menu-footer .navbar-nav li:first-child a {
+  padding-left: 0;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   footer .parceiros {
@@ -112,6 +116,9 @@ footer .menu-footer .navbar-nav li:last-child a {
   }
   footer .parceiros .box1 img {
     max-width: 80%;
+  }
+  footer .menu-footer .navbar-nav li:first-child a {
+    padding-left: 15px;
   }
 }
 

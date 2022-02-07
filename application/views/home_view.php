@@ -15,7 +15,7 @@
 </div>
 <div class="container-fluid padding-off">
     <div class="galeria">
-        <section class="glr-home slider">
+        <section class="glr01 slider">
             <div>
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
             </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
                 <div class="galeria-lugares">
-                    <section class="glr-lugares slider">
+                    <section class="glr02 slider">
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_01.png" alt="Reserva Elementum">
                         </div>
@@ -159,19 +159,18 @@
     </div>
 </div>
 
-<!-- <div id="cookies" class="cookies">
+<div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em "Aceito", concorda com as nossas configurações padrão e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div> -->
+</div>
 
 <?php
 if (isset($email_enviado))

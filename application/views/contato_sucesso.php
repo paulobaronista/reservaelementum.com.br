@@ -15,7 +15,7 @@
 </div>
 <div class="container-fluid padding-off">
     <div class="galeria">
-        <section class="glr-home slider">
+        <section class="glr01 slider">
             <div>
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
             </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
                 <div class="galeria-lugares">
-                    <section class="glr-lugares slider">
+                    <section class="glr02 slider">
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_01.png" alt="Reserva Elementum">
                         </div>

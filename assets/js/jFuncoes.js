@@ -1,17 +1,19 @@
 $(document).on('ready', function () {
-    $(".glr-home").slick({
+
+    $(".glr01").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 20000,
+        autoplaySpeed: 4000,
     });
-    $(".glr-lugares").slick({
+
+    $(".glr02").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 20000,
+        autoplaySpeed: 4000,
     });
 });
 

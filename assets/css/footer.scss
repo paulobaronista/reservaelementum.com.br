@@ -98,6 +98,10 @@ footer {
             li:last-child a {
                 border-right: 0px solid transparent;
             }
+
+            li:first-child a {
+                padding-left: 0;
+            }
         }
     }
 }
@@ -108,19 +112,30 @@ footer {
 
         .parceiros {
             padding-top: 10px;
-    
+
             &::before {
                 width: 1.5%;
             }
-    
+
             &::after {
                 width: 1.5%;
             }
 
             .box1 {
                 margin-bottom: 10px;
+
                 img {
                     max-width: 80%;
+                }
+            }
+        }
+
+        .menu-footer {
+
+            .navbar-nav {
+
+                li:first-child a {
+                    padding-left: 15px;
                 }
             }
         }

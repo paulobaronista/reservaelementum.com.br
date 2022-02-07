@@ -22,15 +22,15 @@
     <div class="container-fluid padding-off menu-footer">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                     <ul class="nav navbar-nav">
+                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
                         <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
                     </ul>
-                </div> -->
-                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                     <p>
-                        Empreendimento "Reserva Elementum". Projeto de Loteamento aprovado e registrado no Cartório de Registro<br/>
-                        de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238.
+                        Empreendimento "Reserva Elementum". Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário. Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. Creci J-961. Secovi 1191.
                     </p>
                 </div>
             </div>
