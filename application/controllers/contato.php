@@ -26,7 +26,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@reservaelementum.com.br","Reserva Elementum");
             $this->email->to('contato@reservaelementum.com.br');
-            $this->email->cc('renata@spicycomm.com.br, leadselememtum@gmail.com, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br');
+            $this->email->cc('mv_cp_94f_300_1828_3079_13285_73388_3535_3535_faleconosco_landingpage@email.anapro.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br');
 
 
             $this->email->subject($assunto);
