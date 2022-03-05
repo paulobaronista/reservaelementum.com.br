@@ -10,6 +10,14 @@
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <p>UMA EXCLUSIVIDADE</p>
             <p>PARA 32 FAMÍLIAS EM ATIBAIA</p>
+            <a class="hidden-xs" href="#" data-toggle="modal" data-target="#modalVideo">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/filme.png" alt="Filme">
+            </a>
+            <div class="visible-xs">
+                <a href="#" data-toggle="modal" data-target="#modalVideo">
+                    Clique aqui e assista ao fime
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -17,7 +25,7 @@
     <div class="galeria">
         <section class="glr01 slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Elementum">
             </div>
             <div>
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Elementum">
@@ -26,7 +34,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Elementum">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
             </div>
             <div>
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Elementum">
@@ -85,6 +93,24 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_12.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_13.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_14.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_15.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_16.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_17.png" alt="Reserva Elementum">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_18.png" alt="Reserva Elementum">
                         </div>
                     </section>
                 </div>

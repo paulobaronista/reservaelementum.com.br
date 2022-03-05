@@ -328,6 +328,31 @@ p {
     }
 }
 
+.modalVideo {
+    .close {
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    // .modal-dialog {
+    //     width: 1200px;
+    //     margin: 50px auto;
+    // }
+
+    .modal-body {
+        padding: 0px;
+    }
+}
+
 /* Extra Small */
 @media(max-width:767px) {
 
@@ -357,7 +382,8 @@ p {
         }
     }
 
-    .modalMapa {
+    .modalMapa,
+    .modalVideo {
         .close {
             top: -26px;
             right: 0px;

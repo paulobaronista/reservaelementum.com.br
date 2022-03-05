@@ -415,6 +415,24 @@ p {
   padding: 0px;
 }
 
+.modalVideo .close {
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
+}
+
+.modalVideo .modal-body {
+  padding: 0px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -434,11 +452,13 @@ p {
   .cookies .box .btn_cookie {
     margin-top: 20px;
   }
-  .modalMapa .close {
+  .modalMapa .close,
+  .modalVideo .close {
     top: -26px;
     right: 0px;
   }
-  .modalMapa .modal-dialog {
+  .modalMapa .modal-dialog,
+  .modalVideo .modal-dialog {
     width: auto;
     margin: 30% auto 0;
   }
@@ -497,6 +517,12 @@ p {
   font-size: 40px;
   line-height: 45px;
   letter-spacing: 10px;
+}
+
+.faixa-02 a {
+  position: absolute;
+  left: 3%;
+  bottom: -12px;
 }
 
 .terrenos360 {
@@ -612,6 +638,25 @@ p {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 5px;
+  }
+  .faixa-02 a {
+    position: relative;
+    left: 0%;
+    bottom: 0;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-style: normal;
+    background-color: #00541f;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    display: table;
+    margin: 5px auto 0;
+    padding: 8px 13px 6px;
+    border-radius: 13px;
+    text-decoration: none;
   }
   .terrenos360 {
     margin-top: -5px;
